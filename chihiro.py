@@ -1,5 +1,6 @@
 import pandas as pd # pandas
 from janome.tokenizer import Tokenizer # Janome
+import MeCab
 
 t = Tokenizer()
 s = 'すもももももももものうち' # 形態素解析を行うテキスト
